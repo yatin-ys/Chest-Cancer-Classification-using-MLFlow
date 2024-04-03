@@ -4,7 +4,7 @@ import urllib.request as requestm
 from zipfile import ZipFile
 import tensorflow as tf
 import time
-from cnnClassifier.config.configuration import TrainingConfig
+from cnnClassifier.entity.config_entity import TrainingConfig
 
 
 class Training:
